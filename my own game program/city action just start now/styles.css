@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #city {
+    width: 800px;
+    height: 400px;
+    background-image: url('city.jpg'); /* Replace with your city map image */
+    background-size: cover;
+    position: relative;
+  }
+  
+  #player {
+    width: 40px;
+    height: 40px;
+    background-color: #fff; /* Placeholder for player */
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .enemy {
+    width: 30px;
+    height: 30px;
+    background-color: red; /* Placeholder for enemy */
+    position: absolute;
+  }
+  
+  .bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+  }
+  
+  .obstacle {
+    width: 80px;
+    height: 80px;
+    background-color: #888; /* Placeholder for obstacle */
+    position: absolute;
+  }
+  
+  #controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #ammo, #health, #score, #level {
+    margin-top: 10px;
+  }
+  
